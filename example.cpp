@@ -1,5 +1,4 @@
 #include <raylib.h>
-#include <math.h>
 #include "graph.h"
 
 int main()
@@ -17,8 +16,8 @@ int main()
 
     while (!WindowShouldClose())
     {
-        // i = rotateVector(1, i);
-        // j = rotateVector(1, j);
+        i = rotateVector(1, i);
+        j = rotateVector(1, j);
         BeginDrawing();
             ClearBackground(BLACK);
             DrawFPS(0, 0);
