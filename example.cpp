@@ -12,7 +12,7 @@ int main()
 
     Vector2 i = {1, 0};
     Vector2 j = {0, 1};
-    Vector2 v = {1, 1};
+    Vector2 v = {-1, 1};
 
     while (!WindowShouldClose())
     {
